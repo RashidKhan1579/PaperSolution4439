@@ -55,7 +55,7 @@ public class Question3 extends AppCompatActivity {
             }
         });
     }
-
+//Mids
 
     private void changetext() {
         if (selectedTypeFace != 3) {
