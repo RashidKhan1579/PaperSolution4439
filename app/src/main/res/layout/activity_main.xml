@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:text="QUESTION 01"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/Q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:text="QUESTION 02"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/Q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:text="QUESTION 03"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/Q4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:text="QUESTION 04"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/Q5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:text="QUESTION 05"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/Q6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:text="QUESTION 06"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/Q7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:text="QUESTION 07"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/Q8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:text="QUESTION 08"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/Q9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:text="QUESTION 09"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/Q10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:text="QUESTION 10"
+        android:textColor="#ffffff" />
+
+
+</LinearLayout>
