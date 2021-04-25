@@ -1,11 +1,10 @@
 package com.mids.papersolution4439.Q9;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.os.Bundle;
-
-import com.mids.papersolution4439.MainActivity;
 import com.mids.papersolution4439.R;
 
 import java.util.ArrayList;

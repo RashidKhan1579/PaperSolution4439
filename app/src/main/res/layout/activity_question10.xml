@@ -7,10 +7,12 @@
     android:background="#f7f7f7"
     android:orientation="vertical"
     tools:context=".Q10.Question10">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp">
+
         <TextView
             android:id="@+id/txtUserName"
             android:layout_width="match_parent"
@@ -19,14 +21,16 @@
             android:text="Rashid Khan"
             android:textColor="@color/black"
             android:textSize="18sp" />
+
         <TextView
-            android:layout_below="@+id/txtUserName"
             android:id="@+id/txtAccountType"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/txtUserName"
             android:fontFamily="@font/comfortaa_bold"
             android:text="Indivisual"
             android:textSize="14sp" />
+
         <com.google.android.material.chip.Chip
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,6 +39,7 @@
             android:text="BASIC"
             android:textColor="@color/purple_700"
             android:textSize="14sp" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,22 +47,26 @@
             android:layout_centerInParent="true"
 
             android:padding="8dp">
+
             <ImageView
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:src="@drawable/ic_profile_profile" />
         </LinearLayout>
     </RelativeLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:weightSum="3">
+
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardProfileSetting"
                 android:layout_width="0dp"
@@ -68,12 +77,14 @@
                 android:focusable="true"
                 app:cardElevation="0dp"
                 app:cardUseCompatPadding="true">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="16dp">
+
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -89,6 +100,7 @@
                         android:textSize="14sp" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
+
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardMySaved"
                 android:layout_width="0dp"
@@ -99,16 +111,19 @@
                 android:focusable="true"
                 app:cardElevation="0dp"
                 app:cardUseCompatPadding="true">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="16dp">
+
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:src="@drawable/icon_my_saved_searches" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -119,6 +134,7 @@
                         android:textSize="14sp" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
+
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardMyFavorites"
                 android:layout_width="0dp"
@@ -129,16 +145,19 @@
                 android:focusable="true"
                 app:cardElevation="0dp"
                 app:cardUseCompatPadding="true">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="16dp">
+
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:src="@drawable/icon_my_favorites" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -150,11 +169,13 @@
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:weightSum="3">
+
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardMyProperties"
                 android:layout_width="0dp"
@@ -165,16 +186,19 @@
                 android:focusable="true"
                 app:cardElevation="0dp"
                 app:cardUseCompatPadding="true">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="16dp">
+
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:src="@drawable/icon_my_properties" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -185,6 +209,7 @@
                         android:textSize="14sp" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
+
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardDraftProperties"
                 android:layout_width="0dp"
@@ -195,16 +220,19 @@
                 android:focusable="true"
                 app:cardElevation="0dp"
                 app:cardUseCompatPadding="true">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="16dp">
+
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:src="@drawable/icon_my_draft_properties" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -215,6 +243,7 @@
                         android:textSize="14sp" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
+
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardQuotaAndCredits"
                 android:layout_width="0dp"
@@ -225,16 +254,19 @@
                 android:focusable="true"
                 app:cardElevation="0dp"
                 app:cardUseCompatPadding="true">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:orientation="vertical"
                     android:padding="16dp">
+
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:src="@drawable/icon_quota_and_credits" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -247,25 +279,30 @@
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
     </LinearLayout>
+
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="0dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp">
+
                 <ImageView
                     android:id="@+id/iconLookingForRent"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:src="@drawable/icon_looking_for_rent" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -276,6 +313,7 @@
                     android:textSize="14sp"
                     android:textStyle="bold" />
             </RelativeLayout>
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

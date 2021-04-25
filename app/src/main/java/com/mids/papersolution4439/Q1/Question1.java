@@ -1,21 +1,20 @@
 package com.mids.papersolution4439.Q1;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.mids.papersolution4439.R;
 
-public class Question1 extends AppCompatActivity  {
-    Button menu1;
-    private int selectedItems=0;
-    private String[] item={
+public class Question1 extends AppCompatActivity {
+    private Button menu1;
+    private int selectedItems = 0;
+    private String[] item = {
             "Java",
             "Python",
             "Android",
@@ -26,18 +25,18 @@ public class Question1 extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question1);
-        menu1= findViewById(R.id.menu1);
-      menu1.setOnClickListener(new View.OnClickListener() {
-          @Override
-          public void onClick(View v) {
-              showCourses();
-          }
-      });
+        menu1 = findViewById(R.id.menu1);
+        menu1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Courses();
+            }
+        });
 
 
-}
+    }
 
-    private void showCourses() {
+    private void Courses() {
         MaterialAlertDialogBuilder dialogMenu = new MaterialAlertDialogBuilder(Question1.this);
         dialogMenu.setTitle("Select Your Course");
         dialogMenu.setCancelable(false);

@@ -1,19 +1,19 @@
 package com.mids.papersolution4439.Q7;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.material.button.MaterialButton;
 import com.mids.papersolution4439.R;
 
 public class Question7 extends AppCompatActivity {
-    private EditText edtFirstName, edtLastName, edtEmail,edtPassword, edtEmail2, edtPassword2;
+    private EditText edtFirstName, edtLastName, edtEmail, edtPassword, edtEmail2, edtPassword2;
     private MaterialButton btnCreateAccount, btnLogin;
-    private String firstName,lastName,email,password;
+    private String fName, lName, email, password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,17 +45,17 @@ public class Question7 extends AppCompatActivity {
         });
     }
 
-    private void loginAccount()  {
-        if (edtEmail2.getText().toString().equals(email) && edtPassword2.getText().toString().equals(password)){
+    private void loginAccount() {
+        if (edtEmail2.getText().toString().equals(email) && edtPassword2.getText().toString().equals(password)) {
             Toast.makeText(this, "Login Successful!", Toast.LENGTH_SHORT).show();
-        }else{
+        } else {
             Toast.makeText(this, "Email or Password doesn't match!", Toast.LENGTH_SHORT).show();
         }
     }
 
     private void createAccount() {
-        firstName = edtFirstName.getText().toString();
-        lastName = edtLastName.getText().toString();
+        fName = edtFirstName.getText().toString();
+        lName = edtLastName.getText().toString();
         email = edtEmail.getText().toString();
         password = edtPassword.getText().toString();
         Toast.makeText(this, "Account Created", Toast.LENGTH_SHORT).show();

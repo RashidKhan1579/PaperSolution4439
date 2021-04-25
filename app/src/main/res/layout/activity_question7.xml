@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Q7.Question7">
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardTitle1"
         android:layout_width="match_parent"
@@ -14,9 +15,11 @@
         android:focusable="false"
         app:cardCornerRadius="4dp"
         app:cardElevation="2dp">
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -27,6 +30,7 @@
                 android:textSize="16sp" />
         </RelativeLayout>
     </com.google.android.material.card.MaterialCardView>
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardRegister"
         android:layout_width="match_parent"
@@ -37,16 +41,19 @@
         android:focusable="false"
         app:cardCornerRadius="4dp"
         app:cardElevation="2dp">
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp">
+
             <LinearLayout
                 android:id="@+id/layoutName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="2">
+
                 <EditText
                     android:id="@+id/edtFirstName"
                     android:layout_width="0dp"
@@ -55,6 +62,7 @@
                     android:hint="First Name"
                     android:inputType="textPersonName"
                     android:textColor="@color/purple_700" />
+
                 <EditText
                     android:id="@+id/edtLastName"
                     android:layout_width="0dp"
@@ -64,6 +72,7 @@
                     android:inputType="textPersonName"
                     android:textColor="@color/purple_700" />
             </LinearLayout>
+
             <EditText
                 android:id="@+id/edtEmail"
                 android:layout_width="match_parent"
@@ -73,6 +82,7 @@
                 android:hint="Email Address"
                 android:inputType="textEmailAddress"
                 android:textColor="@color/purple_700" />
+
             <EditText
                 android:id="@+id/edtPassword"
                 android:layout_width="match_parent"
@@ -82,17 +92,19 @@
                 android:hint="Password"
                 android:inputType="textPassword"
                 android:textColor="@color/purple_700" />
+
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCreateAccount"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/edtPassword"
                 android:layout_centerInParent="true"
                 android:layout_marginTop="8dp"
-                android:id="@+id/btnCreateAccount"
                 android:text="Create Account" />
         </RelativeLayout>
     </com.google.android.material.card.MaterialCardView>
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardTitle2"
         android:layout_width="match_parent"
@@ -103,9 +115,11 @@
         android:focusable="false"
         app:cardCornerRadius="4dp"
         app:cardElevation="2dp">
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -116,6 +130,7 @@
                 android:textSize="16sp" />
         </RelativeLayout>
     </com.google.android.material.card.MaterialCardView>
+
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -125,10 +140,12 @@
         android:focusable="false"
         app:cardCornerRadius="4dp"
         app:cardElevation="2dp">
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp">
+
             <EditText
                 android:id="@+id/edtEmail2"
                 android:layout_width="match_parent"
@@ -137,6 +154,7 @@
                 android:hint="Email Address"
                 android:inputType="textEmailAddress"
                 android:textColor="@color/purple_700" />
+
             <EditText
                 android:id="@+id/edtPassword2"
                 android:layout_width="match_parent"
@@ -146,13 +164,14 @@
                 android:hint="Password"
                 android:inputType="textPassword"
                 android:textColor="@color/purple_700" />
+
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLogin"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/edtPassword2"
                 android:layout_centerInParent="true"
-                android:id="@+id/btnLogin"
                 android:layout_marginTop="8dp"
                 android:text="Login" />
         </RelativeLayout>

@@ -5,12 +5,13 @@ public class Contact {
     private String name;
     private String phone;
 
-    public Contact(int imgContact,String name, String phone) {
-        this.imgContact=imgContact;
+    public Contact(int imgContact, String name, String phone) {
+        this.imgContact = imgContact;
         this.name = name;
         this.phone = phone;
     }
-    public  int getImgContact(){
+
+    public int getImgContact() {
         return imgContact;
     }
 

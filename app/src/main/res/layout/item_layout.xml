@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/cardNewProject"
@@ -12,14 +11,17 @@
     app:cardBackgroundColor="@color/white"
     app:cardCornerRadius="8dp"
     app:cardElevation="0dp">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/background_rounded_corner"
         android:orientation="vertical">
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <ImageView
                 android:id="@+id/imgProject"
                 android:layout_width="match_parent"
@@ -28,6 +30,7 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/river_courtyard"
                 tools:ignore="ContentDescription" />
+
             <com.google.android.material.chip.Chip
                 android:id="@+id/chipHot"
                 android:layout_width="wrap_content"
@@ -40,6 +43,7 @@
                 android:textColor="@color/white"
                 app:chipCornerRadius="8dp" />
         </RelativeLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,6 +52,7 @@
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
             tools:ignore="RtlSymmetry">
+
             <TextView
                 android:id="@+id/txtPrice"
                 android:layout_width="match_parent"
@@ -69,6 +74,7 @@
                 android:maxLines="1"
                 android:text="River Courtyard"
                 android:textSize="12sp" />
+
             <TextView
                 android:id="@+id/txtCity"
                 android:layout_width="fill_parent"
@@ -79,6 +85,7 @@
                 android:text="Bahria Town Rawalpindi, Rawalpindi"
                 android:textSize="15sp"
                 android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/txtCategory"
                 android:layout_width="match_parent"
@@ -90,6 +97,7 @@
                 android:text="Flats"
                 android:textColor="@color/purple_700"
                 android:textSize="15sp" />
+
             <TextView
                 android:id="@+id/txtArea"
                 android:layout_width="match_parent"
